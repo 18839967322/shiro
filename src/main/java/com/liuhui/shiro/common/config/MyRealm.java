@@ -1,7 +1,7 @@
-package com.liuhui.shiro.config;
+package com.liuhui.shiro.common.config;
 
-import com.liuhui.shiro.entity.User;
-import com.liuhui.shiro.mapper.UserMapper;
+import com.liuhui.shiro.module.sys.entity.User;
+import com.liuhui.shiro.module.sys.mapper.UserMapper;
 import org.apache.shiro.authc.*;
 import org.apache.shiro.authz.AuthorizationInfo;
 import org.apache.shiro.realm.AuthorizingRealm;

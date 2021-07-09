@@ -1,8 +1,8 @@
-package com.liuhui.shiro.service.impl;
+package com.liuhui.shiro.module.sys.service.impl;
 
-import com.liuhui.shiro.entity.User;
-import com.liuhui.shiro.mapper.UserMapper;
-import com.liuhui.shiro.service.UserService;
+import com.liuhui.shiro.module.sys.entity.User;
+import com.liuhui.shiro.module.sys.mapper.UserMapper;
+import com.liuhui.shiro.module.sys.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

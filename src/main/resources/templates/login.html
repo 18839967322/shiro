@@ -10,10 +10,10 @@
     <link rel="stylesheet" th:href="@{/css/login_new.css}"/>
     <link rel="stylesheet" th:href="@{/lib/layui/css/layui.css}"/>
 </head>
-<body background="images/login.svg">
+<body background="../images/login.svg">
 <form class="layui-form" action="javascript:void(0);">
     <div class="layui-form-item">
-        <img class="logo" th:src="@{images/logo.png}" />
+        <img class="logo" th:src="@{../images/logo.png}" />
         <div class="title">Smart-Parking</div>
         <div class="desc">
             智能停车场管理平台
@@ -27,7 +27,7 @@
     </div>
     <div class="layui-form-item">
         <input placeholder="验证码" name="verCode" hover class="code layui-input layui-input-inline"  />
-        <img src="/sys/captcha" class="codeImage" id="captchaImage"/>
+        <img src="/login/captcha" class="codeImage" id="captchaImage"/>
     </div>
     <div class="layui-form-item">
         <input type="checkbox" name="rememberMe" value="true" title="记住密码" lay-skin="primary">
@@ -45,10 +45,10 @@
     var $ = layui.jquery;
     var okUtils = layui.okUtils;
     var okLayer = layui.okLayer;
-    var captchaPath = "/sys/captcha";
+    var captchaPath = "/login/captcha";
     form.on('submit(login)', function(data){
         $.ajax({
-            url:'/sys/login',
+            url:'/login',
             data:data.field,
             type:"post",
             dataType:'json',

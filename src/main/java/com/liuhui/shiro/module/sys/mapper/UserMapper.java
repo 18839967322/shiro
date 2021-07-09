@@ -1,6 +1,6 @@
-package com.liuhui.shiro.mapper;
+package com.liuhui.shiro.module.sys.mapper;
 
-import com.liuhui.shiro.entity.User;
+import com.liuhui.shiro.module.sys.entity.User;
 import org.springframework.stereotype.Repository;
 
 /**

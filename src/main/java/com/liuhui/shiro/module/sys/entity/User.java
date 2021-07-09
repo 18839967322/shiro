@@ -1,4 +1,4 @@
-package com.liuhui.shiro.entity;
+package com.liuhui.shiro.module.sys.entity;
 
 import lombok.Data;
 

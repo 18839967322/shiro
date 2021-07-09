@@ -1,4 +1,4 @@
-package com.liuhui.shiro.config;
+package com.liuhui.shiro.common.config;
 
 import org.apache.shiro.realm.Realm;
 import org.apache.shiro.spring.web.ShiroFilterFactoryBean;

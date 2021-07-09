@@ -1,6 +1,6 @@
-package com.liuhui.shiro.service;
+package com.liuhui.shiro.module.sys.service;
 
-import com.liuhui.shiro.entity.User;
+import com.liuhui.shiro.module.sys.entity.User;
 
 /**
  * @ClassName UserService
